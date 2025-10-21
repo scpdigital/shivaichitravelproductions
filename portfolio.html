@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Shivai Chitravel Productions</title>
+  <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .section-title {
+      position: relative;
+      display: inline-block;
+      padding-left: 12px;
+    }
+    .section-title::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 6px;
+      height: 70%;
+      background-color: #facc15; /* yellow-400 */
+      border-radius: 2px;
+    }
+  </style>
+</head>
+
+<body class="bg-black text-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-black text-white py-4 px-6 flex justify-between items-center border-b border-gray-800">
+    <a href="index.html" class="text-2xl font-semibold tracking-wide text-yellow-400 hover:text-yellow-300 transition">Shivai Chitravel Productions</a>
+    <div class="space-x-6 text-sm uppercase tracking-wider">
+      <a href="index.html" class="hover:text-yellow-400 transition">Home</a>
+      <a href="portfolio.html" class="text-yellow-400 font-semibold">Portfolio</a>
+      <a href="contact.html" class="hover:text-yellow-400 transition">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 bg-gradient-to-b from-gray-900 to-black">
+    <h1 class="text-5xl font-bold mb-4 text-yellow-400">Our Portfolio</h1>
+    <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+      Every photograph tells a story — timeless, emotional, and crafted with light.
+    </p>
+  </section>
+
+  <!-- Portfolio Sections -->
+  <main class="max-w-7xl mx-auto px-6 py-12 space-y-20">
+
+    <!-- Weddings -->
+    <section id="weddings">
+      <h2 class="text-3xl font-semibold mb-8 section-title">Weddings</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <img src="images/wedding/wed-1.jpg" alt="Wedding Photo 1" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/wedding/wed-2.JPG" alt="Wedding Photo 2" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/wedding/wed-3.jpg" alt="Wedding Photo 3" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/wedding/wed-32.jpg" alt="Wedding Photo 4" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/wedding/wed-24.JPG" alt="Wedding Photo 4" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/wedding/wed-29.jpg" alt="Wedding Photo 4" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/wedding/wed-14.JPG" alt="Wedding Photo 4" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/wedding/wed-21.JPG" alt="Wedding Photo 4" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+
+      </div>
+    </section>
+
+    <!-- Events -->
+    <section id="events">
+      <h2 class="text-3xl font-semibold mb-8 section-title">Events</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <img src="images/events/event-1.jpg" alt="Event Photo 1" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/events/event-2.jpg" alt="Event Photo 2" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/events/event-3.jpg" alt="Event Photo 3" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/events/event-4.jpg" alt="Event Photo 4" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/events/event-5.JPG" alt="Event Photo 4" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/events/event-6.JPG" alt="Event Photo 4" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/events/event-7.JPG" alt="Event Photo 4" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+      </div>
+    </section>
+
+    <!-- Product Shoots -->
+    <section id="product-shoots">
+      <h2 class="text-3xl font-semibold mb-8 section-title">Product Shoots</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <img src="images/product/prod-1.jpg" alt="Product Photo 1" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/product/prod-2.jpg" alt="Product Photo 2" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/product/prod-3.jpg" alt="Product Photo 3" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+      </div>
+    </section>
+
+     <!-- Corporate Shoots -->
+    <section id="corporate-shoots">
+      <h2 class="text-3xl font-semibold mb-8 section-title">Corporate Shoots</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <img src="images/corporate/corp-1.jpg" alt="Product Photo 1" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images/corporate/corp-2.jpg" alt="Product Photo 2" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images//corporate/corp-3.jpg" alt="Product Photo 3" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images//corporate/corp-4.jpg" alt="Product Photo 3" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+        <img src="images//corporate/corp-5.jpg" alt="Product Photo 3" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-64">
+      </div>
+    </section>
+
+    <!-- Movie BTS Shoots -->
+    <section id="movie-bts-shoots">
+      <h2 class="text-3xl font-semibold mb-8 section-title">Movie BTS Shoots</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <img src="images/movies/mov-1.jpg" alt="Product Photo 1" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-full">
+        <img src="images/movies/mov-2.jpg" alt="Product Photo 2" class="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 object-cover w-full h-full">
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-500 text-center py-6 border-t border-gray-800">
+    <p>&copy; 2025 Shivai Chitravel Productions. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
